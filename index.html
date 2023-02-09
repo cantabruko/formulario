@@ -1,0 +1,52 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<form class="form">
+  <h2>CONTACT US</h2>
+  <p type="Elija su comunidad">
+    <input list="Comunidades Autonomas" id="Autonomas" name="Autonomas">
+      <datalist id="Comunidades Autonomas">
+      <option value="Galicia">
+      <option value="Asturias">
+      <option value="Cantabria">
+      <option value="Pais Vasco">
+      <option value="Navarra">
+      <option value="Aragon">
+      <option value="Catalunia">
+      <option value="Comunidad Valenciana">
+      <option value="Murcia">
+      <option value="Andalucia">
+      <option value="Extremadura">
+      <option value="Castilla y Leon">
+      <option value="La Rioja">
+      <option value="Castilla la Mancha">
+      <option value="Comunidad de Madrid">
+      <option value="Baleares">
+      <option value="Canarias">
+      <option value="Ceuta">
+      <option value="Melilla">
+      </datalist>
+    </input>
+  </p>
+  <p type="Nombre y apellido">
+    <input type="name" autofocus placeholder="Ingrese su nombre" name="nombre" autocomplete="on">
+  </p>
+  <p type="Introduzda dato del 1 al 10">
+    <input type="number" placeholder="Ingrese una cantidad" name="number" min="0" max="10">
+  </p>
+  <p type="Cargue el archivo">
+    <input type="file" placeholder="Seleccione archivo" name="file" multiple>
+  </p>
+  <p type="Contraseña">
+    <input type="password" placeholder="Min 8 caracteres." name="password" minlength="8" pattern="^[0-9][a-zA-Z0-9]*[A-Z]$" required>
+  </p>
+  <p type="Progreso">
+    <progress value="2" max="10"></progress>
+  <p>
+    <button><input type="submit" value="Enviar"/></button>
+  </p>
+  <div>
+      <span class="fa fa-phone"></span>645 588 254
+      <span class="fa fa-envelope-o"></span> raul@gmail.com
+  </div>
+  </form>
+</html>
